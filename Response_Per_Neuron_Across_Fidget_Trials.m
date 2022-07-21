@@ -1,3 +1,9 @@
+% code written by Mahdi Ramadan to process a dataset of mouse visual cortex fluoresence data that can be downloaded 
+% from this link: https://datadryad.org/stash/share/S-QAenoUCDeDypT64bgG6Vxz6HE0bQAFPomMx6eUW_k
+
+% this code generates 1 plot: for each session, the average neuronal response to fidget behavior is plotted for all neurons. Fidget events occurr at index 100, and the sample
+% rate is 100 indices/second. 
+
 clear all; close all; clc;
 
 
@@ -8,14 +14,7 @@ all_lims = zeros(1,length(myFiles));
 th_order = zeros(1,length(myFiles));
 
 
-db = rgb('dark blue');
-xc = rgb('cyan');
 
-dr = rgb('deep red');
-pin = rgb('salmon');
-
-dg = rgb('grey');
-lg = rgb('light grey');
 
 for k = 1:length(myFiles)
 
