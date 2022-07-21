@@ -1,3 +1,11 @@
+% code written by Mahdi Ramadan to process a dataset of mouse visual cortex fluoresence data that can be downloaded 
+% from this link: https://datadryad.org/stash/share/S-QAenoUCDeDypT64bgG6Vxz6HE0bQAFPomMx6eUW_k
+
+% this code generates 8 plots: 4 plots show the average neural response time aligened to fidget behaviors for each neuronal cluster type. Fidget events occurr 
+% at index 100, and the frame rate is 50 indices/second. The next 4 plots show the average response of all neurons seperately to fidget for each cluster type. 
+
+
+
 clear all; close all; clc;
 
 % change to data directory
