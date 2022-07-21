@@ -1,3 +1,11 @@
+% code written by Mahdi Ramadan to process a dataset of mouse visual cortex fluoresence data that can be downloaded 
+% from this link: https://datadryad.org/stash/share/S-QAenoUCDeDypT64bgG6Vxz6HE0bQAFPomMx6eUW_k
+
+% this code generates 3 plots: the first plot shows the distribution of neuronal cluster types across either cortical area, layer or cre-line. The user can switch between
+% the 3 by setting the variable u equal to the strings associated with each category ( lines 39-43). The next plot shows the percentage of neurons that have 
+% a fidget induced modulation that exceeds 2 stds from baseline for each category (areas, layers or cre-lines. The final plot shows the percentage of al neurons that have 
+% a fidget induced modulation that exceeds 2 stds from baseline. 
+
 clear all; close all; clc;
 
 % change to data directory
