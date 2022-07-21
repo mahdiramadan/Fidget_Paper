@@ -65,7 +65,7 @@ for k = 1:length(myFiles)
 end
 
 
-% plot all neurons from all sessions from eah cluster
+% plot all neurons from all sessions from each cluster
 
 figure()
 imagesc(all_neurons_1(randperm(size(all_neurons_1, 1)), :), [ -2 2.5])
